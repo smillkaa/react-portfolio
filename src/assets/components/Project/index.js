@@ -5,10 +5,10 @@ function Project() {
     return (
         <section className="bg-black p-5" id="Portfolio">
             <div className="container">
-                <div className="row justify-content-center align-items-center">
+                <div className="row">
                     <div className="col-6 mb-5">
                         <h3>UNI-QOL</h3>
-                        <a href='https://smillkaa.github.io/weather-dashboard/'><img className="portfolio-img" src={wdImg} alt="sun and clouds" /></a>
+                        <a href='https://caitlinparsons25.github.io/uni-qol/'><img className="portfolio-img" src={wdImg} alt="sun and clouds" /></a>
                     </div>
                     <div className="col-6 mb-5">
                         <h3>WEATHER DASHBOARD</h3>
@@ -16,7 +16,7 @@ function Project() {
                     </div>
                     <div className="col-6 mb-5">
                         <h3>TECH BLOG SITE</h3>
-                        <a href='https://smillkaa.github.io/weather-dashboard/'><img className="portfolio-img" src={wdImg} alt="sun and clouds" /></a>
+                        <a href='https://github.com/smillkaa/tech-blog-site'><img className="portfolio-img" src={wdImg} alt="sun and clouds" /></a>
                     </div>
                     <div className="col-6 mb-5">
                         <h3>PROJECT #4</h3>

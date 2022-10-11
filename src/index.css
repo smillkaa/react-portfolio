@@ -11,7 +11,7 @@ html, body {
   top: 100px;
 }
 
-#About {
+#About, #Contact {
   background-color: rgb(27, 33, 45);
   color: white;
 }
@@ -41,5 +41,38 @@ max-width: 60px;
 }
 
 .portfolio-img {
-  max-width: 100px;
+  max-width: 150px;
+}
+
+.black {
+  background: none;
+}
+
+footer h4 {
+  font-size: 1rem;
+  text-shadow: rgb(17, 0, 255) 0px 0px 10px;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+#Resume {
+  height: 650px;
+}
+
+#Resume ul {
+  border-left: 2px solid rgb(50, 50, 50);
+}
+
+#Resume a {
+  text-shadow: rgb(17, 0, 255) 0px 0px 8px;
+}
+
+#Resume a:hover {
+  text-shadow: none;
 }
