@@ -76,3 +76,16 @@ h2 {
 #Resume a:hover {
   text-shadow: none;
 }
+
+#Resume p {
+  font-size: 0.7rem;
+}
+
+
+#Portfolio h3 {
+  color: rgb(27, 33, 45);
+}
+
+#Portfolio img {
+  border: 1px white solid;
+}
