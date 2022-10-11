@@ -1,13 +1,45 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+html, body {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Days One', sans-serif;
+}
+.welcome {
+  height: 600px;
+  position: relative;
+  top: 100px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#About {
+  background-color: rgb(27, 33, 45);
+  color: white;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(17, 0, 255) 0px 0px 10px;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: rgb(40, 61, 78);
+  text-shadow: none
+}
+
+a:after {
+  color: blue;
+}
+
+#nav_bar .active {
+  color:            #F8F8F8;
+  background-color: #4f81bd;
+}
+
+.avatar {
+max-width: 60px;
+}
+
+.portfolio-img {
+  max-width: 100px;
 }
